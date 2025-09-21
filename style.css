@@ -1,0 +1,45 @@
+/*  
+
+font-family: "Hanken Grotesk", sans-serif;
+
+  font-family: "Barlow Condensed",
+  sans-serif;
+
+*/
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --primary-color: #BF1109;
+    --secondary-color: #14A83A;
+    --primary-text-color: #0C0C1C;
+    --secondary-text-color: #6b7280;
+    --primary-font: "Hanken Grotesk", sans-serif;
+    --secondary-font: "Barlow Condensed", sans-serif;
+}
+
+body {
+    font-family: var(--primary-font);
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: var(--secondary-font);
+}
+
+img {
+    width: 100%;
+    max-width: 100%;
+}
+
+a {
+    text-decoration: none;
+}
