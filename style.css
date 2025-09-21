@@ -43,3 +43,118 @@ img {
 a {
     text-decoration: none;
 }
+
+.common-btn {
+    display: inline-block;
+    font-size: 20px;
+    background: var(--primary-color);
+    padding: 12px 30px;
+    border-radius: 12px;
+    color: #fff;
+    font-weight: 600;
+    transition: all 0.3s ease-in-out 0s;
+}
+
+.common-btn:hover {
+    background: var(--secondary-color);
+}
+
+.main-menu .nav-item .nav-link {
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 30px;
+    font-family: var(--secondary-font);
+
+    color: var(--primary-text-color);
+    transition: all 0.3s ease-in-out 0s;
+}
+
+.main-menu .nav-item .nav-link:hover {
+    color: var(--primary-color);
+}
+
+/* banner section css start */
+header {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url("images/hero/home-one_img-one.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+}
+
+.banner-wrapper {
+    padding: 82px 0;
+}
+
+.banner-img {
+    position: relative;
+    max-width: 500px;
+}
+
+.banner-img img {
+    width: 100%;
+
+}
+
+.banner-content h5 {
+    font-size: 24px;
+    color: yellow;
+    text-transform: uppercase;
+}
+
+.banner-content h1 {
+    font-size: 100px;
+    font-weight: 700;
+    line-height: 115px;
+    color: #fff;
+    ;
+    font-family: var(--secondary-font);
+}
+
+.banner-content h1 span {
+    color: var(--primary-color);
+}
+
+.banner-content p {
+    color: #fff;
+    font-size: 1.25rem;
+    margin-bottom: 30px;
+}
+
+img.discount-img {
+    position: absolute;
+    width: 38%;
+    height: auto;
+    transform: rotate(329deg);
+    top: -10px;
+    left: -5px;
+}
+
+.category-item {
+    padding: 10px 8px;
+    background: #d3d3d3;
+    transition: all 0.3s ease-in-out 0s;
+}
+
+.category-icon {
+    height: 70px;
+    width: 70px;
+    background: #fff;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 36px;
+    color: var(--primary-text-color);
+    font-weight: 600;
+}
+
+.category-item:hover {
+    background: var(--primary-color);
+    color: #fff;
+}
+
+.category-item:hover .category-icon {
+    background: #ffffff5d;
+    color: #ffffff67
+}
