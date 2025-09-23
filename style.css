@@ -35,6 +35,11 @@ h6 {
     font-family: var(--secondary-font);
 }
 
+.py-6 {
+    padding-top: 6rem;
+    padding-bottom: 6rem;
+}
+
 img {
     width: 100%;
     max-width: 100%;
@@ -157,4 +162,84 @@ img.discount-img {
 .category-item:hover .category-icon {
     background: #ffffff5d;
     color: #ffffff67
+}
+
+.offer-section {
+    background: url(images/bg/offer-bg1.jpg);
+    padding: 96px 0;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.section-shape {
+    position: absolute;
+    top: 0;
+    right: 0;
+    z-index: 1;
+}
+
+.section-shape img {
+    width: 150px;
+}
+
+.offer-expire-date {
+    background: rgba(255, 255, 255, 0.2);
+    height: 84px;
+    width: 80px;
+    padding: 4px;
+    border-radius: 6px;
+    text-align: center;
+}
+
+.ws-card {
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.1);
+    background: #e9e9e9;
+}
+
+.ws-card:hover {
+    background-color: var(--primary-color);
+    color: #fff;
+}
+
+#reservation {
+    background: url(images/bg/offer-bg1.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.reservation-form {
+    background: var(--secondary-color);
+    padding: 30px;
+    border-radius: 12px;
+}
+
+input.input-field {
+    display: flex;
+    padding: 18px;
+    border-radius: 16px;
+    border: 1px solid #fff;
+    background: #ffffff4f;
+    color: #fff;
+    font-size: 18px;
+}
+
+input.input-field:focus {
+    border: none
+}
+
+::placeholder {
+    color: #fff;
+}
+
+.menu-item {
+    background: rgb(219, 219, 219);
+    transition: all 0.3s ease-in-out 0s;
+    margin-bottom: 30px;
+}
+
+.menu-item:hover {
+    background: var(--secondary-color);
+    color: #fff;
 }
