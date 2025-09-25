@@ -11,6 +11,7 @@
         href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@400;500;600;700;800&family=Hanken+Grotesk:ital,wght@0,100..900;1,100..900&display=swap"
         rel="stylesheet">
 
+    <link rel="stylesheet" href="vendor/countdown/default.min.css">
     <!-- owl carousel -->
     <link rel="stylesheet" href="vendor/owl_carousel/assets/owl.carousel.min.css">
     <link rel="stylesheet" href="vendor/owl_carousel/assets/owl.theme.default.min.css">
@@ -260,24 +261,8 @@
                         </h1>
 
 
-                        <div class="offer-expire-date-count py-5 d-flex gap-2">
-                            <div class="offer-expire-date">
-                                <h2 class="text-white fw-bold fs-1 mb-1">25</h2>
-                                <p class="text-white-50">Days</p>
-                            </div>
-                            <div class="offer-expire-date">
-                                <h2 class="text-white fw-bold fs-1 mb-1">12</h2>
-                                <p class="text-white-50">Hours</p>
-                            </div>
-                            <div class="offer-expire-date">
-                                <h2 class="text-white fw-bold fs-1 mb-1">50</h2>
-                                <p class="text-white-50">Min</p>
-                            </div>
-                            <div class="offer-expire-date">
-                                <h2 class="text-white fw-bold fs-1 mb-1">50</h2>
-                                <p class="text-white-50">Sec</p>
-                            </div>
-                        </div>
+                        <div class="my-super-countdown simply-countdown"></div>
+
 
                         <div class="common-btn btn-readmore">
                             Read more
@@ -401,8 +386,12 @@
 
     <section id="food-menu" class="py-6">
         <div class="container">
-            <div class="section-title">
-
+            <div class="text-center py-5">
+                <h6 class="fs-5 text-warning text-uppercase"><i class="fa-solid fa-bowl-food"></i>Delicious Menu
+                </h6>
+                <h1 class="display-3 fw-bold text-uppercase">Explore Our Delicious
+                    Menu
+                </h1>
             </div>
             <div class="row ">
                 <div class="col-xl-6">
@@ -611,32 +600,360 @@
     </section>
 
     <!-- gallery start -->
-    <div class="owl-carousel">
-        <div><img src="images/gallery/gallery-1.jpg" alt=""> </div>
-        <div><img src="images/gallery/gallery-1.jpg" alt=""> </div>
-        <div><img src="images/gallery/gallery-1.jpg" alt=""> </div>
-        <div><img src="images/gallery/gallery-1.jpg" alt=""> </div>
-        <div><img src="images/gallery/gallery-1.jpg" alt=""> </div>
-        <div><img src="images/gallery/gallery-1.jpg" alt=""> </div>
-        <div><img src="images/gallery/gallery-1.jpg" alt=""> </div>
-        <div><img src="images/gallery/gallery-1.jpg" alt=""> </div>
-        <div><img src="images/gallery/gallery-1.jpg" alt=""> </div>
-        <div><img src="images/gallery/gallery-1.jpg" alt=""> </div>
-        <div><img src="images/gallery/gallery-1.jpg" alt=""> </div>
-        <div><img src="images/gallery/gallery-1.jpg" alt=""> </div>
+    <div class="owl-carousel gallery-carousel">
+        <div class="gallery-item">
+            <img src="images/gallery/gallery-14.jpg" alt="">
+            <div class="gallery-overlay">
+                <h3>Food Name</h3>
+                <h6>Type</h6>
+            </div>
+        </div>
+        <div class="gallery-item">
+            <img src="images/gallery/gallery-12.jpg" alt="">
+            <div class="gallery-overlay">
+                <h3>Food Name</h3>
+                <h6>Type</h6>
+            </div>
+        </div>
+        <div class="gallery-item">
+            <img src="images/gallery/gallery-15.jpg" alt="">
+            <div class="gallery-overlay">
+                <h3>Food Name</h3>
+                <h6>Type</h6>
+            </div>
+        </div>
+        <div class="gallery-item">
+            <img src="images/gallery/gallery-18.jpg" alt="">
+            <div class="gallery-overlay">
+                <h3>Food Name</h3>
+                <h6>Type</h6>
+            </div>
+        </div>
+        <div class="gallery-item">
+            <img src="images/gallery/gallery-17.jpg" alt="">
+            <div class="gallery-overlay">
+                <h3>Food Name</h3>
+                <h6>Type</h6>
+            </div>
+        </div>
+        <div class="gallery-item">
+            <img src="images/gallery/gallery-16.jpg" alt="">
+            <div class="gallery-overlay">
+                <h3>Food Name</h3>
+                <h6>Type</h6>
+            </div>
+        </div>
+
 
     </div>
     <!-- gallery end  -->
+
+    <!-- cheef section start -->
+    <section id="testimonial" class="py-5">
+        <div class="container">
+            <div class="text-center py-5">
+                <h6 class="fs-5 text-warning text-uppercase"><i class="fa-solid fa-bowl-food"></i>Our Special Chefs
+                </h6>
+                <h1 class="display-3 fw-bold text-uppercase w-75 m-auto">
+                    Introducing Our Culinary Masters
+                </h1>
+            </div>
+
+            <div class="row">
+                <div class="col-xl-4">
+                    <div class="card  single-chef border-0">
+                        <img src="images/team/team-14.jpg" alt="">
+                        <div class="social-link">
+                            <a> <i class="fa-brands fa-facebook-f"></i> </a>
+                            <a> <i class="fa-brands fa-twitter"></i> </a>
+                            <a> <i class="fa-brands fa-linkedin"></i> </a>
+                            <a> <i class="fa-brands fa-youtube"></i> </a>
+                        </div>
+                        <div class="chef-info">
+                            <h3>David Smith</h3>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xl-4">
+                    <div class="card  single-chef border-0">
+                        <img src="images/team/team-15.jpg" alt="">
+                        <div class="social-link">
+                            <a> <i class="fa-brands fa-facebook-f"></i> </a>
+                            <a> <i class="fa-brands fa-twitter"></i> </a>
+                            <a> <i class="fa-brands fa-linkedin"></i> </a>
+                            <a> <i class="fa-brands fa-youtube"></i> </a>
+                        </div>
+                        <div class="chef-info">
+                            <h3>David Smith</h3>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xl-4">
+                    <div class="card  single-chef border-0">
+                        <img src="images/team/team-16.jpg" alt="">
+                        <div class="social-link">
+                            <a> <i class="fa-brands fa-facebook-f"></i> </a>
+                            <a> <i class="fa-brands fa-twitter"></i> </a>
+                            <a> <i class="fa-brands fa-linkedin"></i> </a>
+                            <a> <i class="fa-brands fa-youtube"></i> </a>
+                        </div>
+                        <div class="chef-info">
+                            <h3>David Smith</h3>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+    <!-- cheef section end -->
+
+    <!-- client testimonial start -->
+    <section id="testimonial" class="py-5">
+        <div class="container">
+            <div class="text-center py-5">
+                <h6 class="fs-5 text-warning text-uppercase"><i class="fa-solid fa-bowl-food"></i>Testimonials
+                </h6>
+                <h1 class="display-3 fw-bold text-uppercase">
+                    Our Guests Are Saying
+                </h1>
+            </div>
+
+            <div class="owl-carousel testimonial-carousel">
+                <div class="textimonial-item">
+                    <div class="card">
+                        <div class="card-body">
+                            <div class="rating">
+                                <i class="fa-solid fa-star text-warning"></i>
+                                <i class="fa-solid fa-star text-warning"></i>
+                                <i class="fa-solid fa-star text-warning"></i>
+                                <i class="fa-solid fa-star text-warning"></i>
+                                <i class="fa-solid fa-star text-warning"></i>
+                            </div>
+                            <p class="py-3">
+                                From the moment we walked in, we were impressed by the warm and inviting atmosphere. The
+                                food was exceptional—each dish
+                                was bursting with fresh, vibrant flavors. The staff was attentive and knowledgeable,
+                                making our dining experience.
+                            </p>
+                            <div class="d-flex justify-content-between align-items-center">
+                                <div>
+                                    <div class="d-flex align-items-center">
+                                        <div class="flex-shrink-0">
+                                            <img src="images/testimonial/author-1.jpg" alt="...">
+                                        </div>
+                                        <div class="flex-grow-1 ms-3">
+                                            <h4 class="mb-0">Jone Due</h4>
+                                            <h6>CEO</h6>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="quote-icon">
+                                    <i class="fa-solid fa-quote-right"></i>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="textimonial-item">
+                    <div class="card">
+                        <div class="card-body">
+                            <div class="rating">
+                                <i class="fa-solid fa-star text-warning"></i>
+                                <i class="fa-solid fa-star text-warning"></i>
+                                <i class="fa-solid fa-star text-warning"></i>
+                                <i class="fa-solid fa-star text-warning"></i>
+                                <i class="fa-solid fa-star text-warning"></i>
+                            </div>
+                            <p class="py-3">
+                                From the moment we walked in, we were impressed by the warm and inviting atmosphere. The
+                                food was exceptional—each dish
+                                was bursting with fresh, vibrant flavors. The staff was attentive and knowledgeable,
+                                making our dining experience.
+                            </p>
+                            <div class="d-flex justify-content-between align-items-center">
+                                <div>
+                                    <div class="d-flex align-items-center">
+                                        <div class="flex-shrink-0">
+                                            <img src="images/testimonial/author-1.jpg" alt="...">
+                                        </div>
+                                        <div class="flex-grow-1 ms-3">
+                                            <h4 class="mb-0">Jone Due</h4>
+                                            <h6>CEO</h6>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="quote-icon">
+                                    <i class="fa-solid fa-quote-right"></i>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="textimonial-item">
+                    <div class="card">
+                        <div class="card-body">
+                            <div class="rating">
+                                <i class="fa-solid fa-star text-warning"></i>
+                                <i class="fa-solid fa-star text-warning"></i>
+                                <i class="fa-solid fa-star text-warning"></i>
+                                <i class="fa-solid fa-star text-warning"></i>
+                                <i class="fa-solid fa-star text-warning"></i>
+                            </div>
+                            <p class="py-3">
+                                From the moment we walked in, we were impressed by the warm and inviting atmosphere. The
+                                food was exceptional—each dish
+                                was bursting with fresh, vibrant flavors. The staff was attentive and knowledgeable,
+                                making our dining experience.
+                            </p>
+                            <div class="d-flex justify-content-between align-items-center">
+                                <div>
+                                    <div class="d-flex align-items-center">
+                                        <div class="flex-shrink-0">
+                                            <img src="images/testimonial/author-1.jpg" alt="...">
+                                        </div>
+                                        <div class="flex-grow-1 ms-3">
+                                            <h4 class="mb-0">Jone Due</h4>
+                                            <h6>CEO</h6>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="quote-icon">
+                                    <i class="fa-solid fa-quote-right"></i>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="textimonial-item">
+                    <div class="card">
+                        <div class="card-body">
+                            <div class="rating">
+                                <i class="fa-solid fa-star text-warning"></i>
+                                <i class="fa-solid fa-star text-warning"></i>
+                                <i class="fa-solid fa-star text-warning"></i>
+                                <i class="fa-solid fa-star text-warning"></i>
+                                <i class="fa-solid fa-star text-warning"></i>
+                            </div>
+                            <p class="py-3">
+                                From the moment we walked in, we were impressed by the warm and inviting atmosphere. The
+                                food was exceptional—each dish
+                                was bursting with fresh, vibrant flavors. The staff was attentive and knowledgeable,
+                                making our dining experience.
+                            </p>
+                            <div class="d-flex justify-content-between align-items-center">
+                                <div>
+                                    <div class="d-flex align-items-center">
+                                        <div class="flex-shrink-0">
+                                            <img src="images/testimonial/author-1.jpg" alt="...">
+                                        </div>
+                                        <div class="flex-grow-1 ms-3">
+                                            <h4 class="mb-0">Jone Due</h4>
+                                            <h6>CEO</h6>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="quote-icon">
+                                    <i class="fa-solid fa-quote-right"></i>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="textimonial-item">
+                    <div class="card">
+                        <div class="card-body">
+                            <div class="rating">
+                                <i class="fa-solid fa-star text-warning"></i>
+                                <i class="fa-solid fa-star text-warning"></i>
+                                <i class="fa-solid fa-star text-warning"></i>
+                                <i class="fa-solid fa-star text-warning"></i>
+                                <i class="fa-solid fa-star text-warning"></i>
+                            </div>
+                            <p class="py-3">
+                                From the moment we walked in, we were impressed by the warm and inviting atmosphere. The
+                                food was exceptional—each dish
+                                was bursting with fresh, vibrant flavors. The staff was attentive and knowledgeable,
+                                making our dining experience.
+                            </p>
+                            <div class="d-flex justify-content-between align-items-center">
+                                <div>
+                                    <div class="d-flex align-items-center">
+                                        <div class="flex-shrink-0">
+                                            <img src="images/testimonial/author-1.jpg" alt="...">
+                                        </div>
+                                        <div class="flex-grow-1 ms-3">
+                                            <h4 class="mb-0">Jone Due</h4>
+                                            <h6>CEO</h6>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="quote-icon">
+                                    <i class="fa-solid fa-quote-right"></i>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="textimonial-item">
+                    <div class="card">
+                        <div class="card-body">
+                            <div class="rating">
+                                <i class="fa-solid fa-star text-warning"></i>
+                                <i class="fa-solid fa-star text-warning"></i>
+                                <i class="fa-solid fa-star text-warning"></i>
+                                <i class="fa-solid fa-star text-warning"></i>
+                                <i class="fa-solid fa-star text-warning"></i>
+                            </div>
+                            <p class="py-3">
+                                From the moment we walked in, we were impressed by the warm and inviting atmosphere. The
+                                food was exceptional—each dish
+                                was bursting with fresh, vibrant flavors. The staff was attentive and knowledgeable,
+                                making our dining experience.
+                            </p>
+                            <div class="d-flex justify-content-between align-items-center">
+                                <div>
+                                    <div class="d-flex align-items-center">
+                                        <div class="flex-shrink-0">
+                                            <img src="images/testimonial/author-1.jpg" alt="...">
+                                        </div>
+                                        <div class="flex-grow-1 ms-3">
+                                            <h4 class="mb-0">Jone Due</h4>
+                                            <h6>CEO</h6>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="quote-icon">
+                                    <i class="fa-solid fa-quote-right"></i>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- client testimonial en -->
 
     <script src="js/bootstrap.bundle.min.js"></script>
     <!-- owl carousel js -->
     <script src="js/jquery-3.7.1.min.js"></script>
     <script src="vendor/owl_carousel/owl.carousel.min.js"></script>
+    <script src="vendor/countdown/simplyCountdown.umd.js"></script>
     <script src="js/main.js"></script>
 
     <script>
+
+        simplyCountdown(".my-super-countdown", {
+            year: 2025,
+            month: 11,
+            day: 10,
+        });
+
+
         $(document).ready(function () {
-            $('.owl-carousel').owlCarousel({
+            /* gallery carousel */
+            $('.owl-carousel .gallery-carousel').owlCarousel({
                 loop: true,
                 margin: 0,
                 responsiveClass: true,
@@ -646,7 +963,7 @@
                 responsive: {
                     0: {
                         items: 1,
-                        nav: true
+                        nav: false
                     },
                     600: {
                         items: 3,
@@ -654,12 +971,39 @@
                     },
                     1000: {
                         items: 5,
-                        nav: true,
+                        nav: false,
                         loop: false
                     }
                 }
             })
+
+
         });
+
+        /* testimonial carousel */
+        $('.owl-carousel.testimonial-carousel').owlCarousel({
+            items: 2,
+            loop: true,
+            margin: 30,
+            autoplay: true,
+            autoplayTimeout: 1000,
+            autoplayHoverPause: true,
+            responsive: {
+                0: {
+                    items: 1,
+                    nav: false
+                },
+                768: {
+                    items: 2,
+                    nav: false
+                },
+                1000: {
+                    items: 2,
+                    nav: false,
+                    loop: false
+                }
+            }
+        })
     </script>
 </body>
 

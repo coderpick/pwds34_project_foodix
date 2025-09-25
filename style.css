@@ -183,13 +183,14 @@ img.discount-img {
     width: 150px;
 }
 
-.offer-expire-date {
-    background: rgba(255, 255, 255, 0.2);
-    height: 84px;
-    width: 80px;
-    padding: 4px;
-    border-radius: 6px;
-    text-align: center;
+.simply-countdown {
+    overflow: hidden;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: start;
+    gap: 1.25rem;
+    font-family: Inter, system-ui, -apple-system, sans-serif;
+    margin: 30px 0;
 }
 
 .ws-card {
@@ -226,7 +227,8 @@ input.input-field {
 }
 
 input.input-field:focus {
-    border: none
+    border: 1px solid #dddddd;
+    outline: none;
 }
 
 ::placeholder {
@@ -242,4 +244,42 @@ input.input-field:focus {
 .menu-item:hover {
     background: var(--secondary-color);
     color: #fff;
+}
+
+.gallery-item {
+    position: relative;
+    margin-bottom: 30px;
+    overflow: hidden;
+}
+
+.gallery-overlay {
+    position: absolute;
+    text-align: center;
+    background: linear-gradient(to top, rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.1));
+    height: 100%;
+    width: 100%;
+    left: 0;
+    bottom: -100%;
+    transition: all 0.3s ease-in-out 0s;
+    color: #fff;
+}
+
+.gallery-item:hover .gallery-overlay {
+    bottom: -50%
+}
+
+#testimonial {
+    background: #F7F1E1;
+}
+
+.quote-icon {
+    height: 60px;
+    width: 60px;
+    background: green;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+    border-radius: 50%;
 }
